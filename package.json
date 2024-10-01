@@ -2,10 +2,10 @@
     "name": "demo",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "node  index.js"
+        "dev": "nodemon --ignore data/ dist/server.js"
     },
     "keywords": [],
     "author": "",
@@ -15,6 +15,8 @@
         "express": "^4.21.0",
         "imap-simple": "^5.1.0",
         "mailparser": "^3.7.1",
-        "node-imap": "^0.9.6"
+        "node-imap": "^0.9.6",
+        "nodemon": "^3.1.7",
+        "xlsx": "^0.18.6"
     }
 }
